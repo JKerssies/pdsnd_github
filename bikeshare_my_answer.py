@@ -23,7 +23,7 @@ def get_filters(city, month, day):
         print ("Which city do you want to explore bikeshare data from? (Please choose: chicago, nyc, or washington)\n")
         city = input("Chicago, NYC or Washington?\n").lower()
         if city not in ("chicago", "nyc", "washington"):
-            print("\nOops, seems like data for that city is not available. Please choose 1 of these: chicago, nyc, or washington\n") 
+            print("\nSorry, seems like data for that city is not available. Please choose 1 of these: chicago, nyc, or washington\n") 
             continue
         else:
             break
@@ -35,7 +35,7 @@ def get_filters(city, month, day):
     
     while True:
         if data_filter not in ("month", "day", "both", "none"):
-            print("\nOops, seems like your request can't be fulfilled. Please choose: Month, day, both, or none\n")
+            print("\nSorry, seems like your request can't be fulfilled. Please choose: Month, day, both, or none\n")
             data_filter = input("Month, day, both, or none?\n")
         elif data_filter == "month":
             print("Which month do you want to explore?\n")
@@ -43,7 +43,7 @@ def get_filters(city, month, day):
             day = 'all'
             while True:
                 if month not in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
-                    print("\nOops, seems like your request can't be fulfilled. Please choose: january, february, march, april, may, june or all\n")
+                    print("\nSorry, seems like your request can't be fulfilled. Please choose: january, february, march, april, may, june or all\n")
                     month = input("January, february, march, april, may, june or all?\n").lower()
                 else:
                     break
@@ -54,7 +54,7 @@ def get_filters(city, month, day):
             month = 'all'
             while True:
                 if day not in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
-                    print("\nOops, seems like your request can't be fulfilled. Please choose: monday, tuesday, wednesday, thursday, friday, saturday, sunday or all\n")
+                    print("\nSorry, seems like your request can't be fulfilled. Please choose: monday, tuesday, wednesday, thursday, friday, saturday, sunday or all\n")
                     day = input("Monday, tuesday, wednesday, thursday, friday, saturday, sunday or all?\n").lower()
                 else:
                     break
@@ -64,7 +64,7 @@ def get_filters(city, month, day):
             month = input("January, february, march, april, may, june or all?\n").lower()
             while True:
                 if month not in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
-                    print("\nOops, seems like your request can't be fulfilled. Please choose: january, february, march, april, may, june or all\n")
+                    print("\nSorry, seems like your request can't be fulfilled. Please choose: january, february, march, april, may, june or all\n")
                     month = input("January, february, march, april, may, june or all?\n").lower()
                 else:
                     break
@@ -73,7 +73,7 @@ def get_filters(city, month, day):
             day = input("Monday, tuesday, wednesday, thursday, friday, saturday, sunday or all?\n").lower()
             while True:
                 if day not in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
-                    print("\nOops, seems like your request can't be fulfilled. Please choose: monday, tuesday, wednesday, thursday, friday, saturday, sunday or all\n")
+                    print("\nSorry, seems like your request can't be fulfilled. Please choose: monday, tuesday, wednesday, thursday, friday, saturday, sunday or all\n")
                     day = input("Monday, tuesday, wednesday, thursday, friday, saturday, sunday or all?\n").lower()
                 else:
                     break 
@@ -246,7 +246,7 @@ def data(df):
     print("\nDo you want to see some data example of your dataset?\n")
     answer = input("Yes or no?\n").lower()
     if answer not in ['yes', 'no']: 
-        print("\nOops, seems like your answer is not valid. Please choose yes or no\n")
+        print("\nSorry, seems like your answer is not valid. Please choose yes or no\n")
         answer = input("Yes or no?\n").lower()
     elif answer == 'yes': 
         while True: 
