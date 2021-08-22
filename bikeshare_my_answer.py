@@ -79,9 +79,9 @@ def get_filters(city, month, day):
                     break 
             break    
  
-    print("--->  ", city)
-    print("--->  ", month)
-    print("--->  ", day)
+    print(">  ", city)
+    print(">  ", month)
+    print(">  ", day)
     return city, month, day
  
 def load_data(city, month, day):
