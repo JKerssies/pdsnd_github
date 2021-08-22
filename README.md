@@ -2,12 +2,12 @@
 
 ### Date created
 August 22nd, 2021
+"It was a rainy sunday afternoon"
 ### Project Title
-Git command project for udacity
-
+Git command project for the Udacity nanodegree programme 'Programming for Data Science'
 ### Description
 This project shows my Bikeshare project for Udacity.
-It is about bikeshare data from the US.
+It is about bikeshare data from three cities in the USA: Chicago, New York City, and Washington.
 
 ### Files used
 I used these files for my project:
