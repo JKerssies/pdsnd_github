@@ -8,12 +8,13 @@ Git command project for the Udacity nanodegree programme 'Programming for Data S
 ### Description
 This project shows my Bikeshare project for Udacity.
 It is about bikeshare data from three cities in the USA: Chicago, New York City, and Washington.
-
+The python script takes user input to explore bikesharing data from open source data for these cities.
 ### Files used
 I used these files for my project:
 chicago.csv
 washington.csv
 new_york_city.csv
+bikeshare_my_answer.py
 ### Credits
 Credits to:
 Udacity: https://udacity.github.io/git-styleguide/
